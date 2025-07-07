@@ -63,6 +63,12 @@ This website serves as:
 If this is a web app you want to run locally:
 
 ```bash
-git clone https://github.com/mohamed23220033/inmoov-robot-site.git
-cd inmoov-robot-site
-open index.html
+npm run dev
+
+<h3 align="left">pictures</h3>
+<p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture.PNG" alt="mohamed23220033" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
+
