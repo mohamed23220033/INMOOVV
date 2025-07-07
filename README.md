@@ -1,12 +1,13 @@
 # 🤖 INMOOV ROBOT WEBSITE
-<h3 align="left">pictures</h3>
-<p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture.PNG" alt="mohamed23220033" /></p>
+<p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture2.PNG" alt="mohamed23220033" /></p>
+
 
 Welcome to the official website for the **InMoov Robot** project by **Mohamed Essam**. This platform is dedicated to showcasing the development, components, and functionality of the life-size 3D-printed humanoid robot — **InMoov**.
 
 ---
 
 ## 🌐 Website Overview
+<p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture.PNG" alt="mohamed23220033" /></p>
 
 This website provides a structured and interactive interface to learn about the InMoov robot. It includes technical knowledge, tools, build instructions, and component specifications.
 
@@ -21,6 +22,8 @@ This website provides a structured and interactive interface to learn about the 
 ---
 
 ## 📂 Website Sections
+<p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture60.PNG" alt="mohamed23220033" /></p>
+
 
 - **About Robot**: Introduction to InMoov and its vision capabilities.
 - **Knowledge**: Concepts and principles behind robotics and AI used in this project.
@@ -29,7 +32,10 @@ This website provides a structured and interactive interface to learn about the 
 - **Gallery**: Collection of images and project progress.
 - **Functions**: Breakdown of robot features and behavior.
 - **Components**: Hardware parts used in the robot.
+- <p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture20.PNG" alt="mohamed23220033" /></p>
+
 - **Contact**: Get in touch with the creator.
+  <p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture10.PNG" alt="mohamed23220033" /></p>
 
 ---
 
@@ -43,8 +49,11 @@ This website provides a structured and interactive interface to learn about the 
 
 ## 🛠️ Technologies Used
 
-- HTML5 / CSS3
+- HTML5 / CSS
 - JavaScript
+- React
+- vite
+- JSON
 - Dark UI Theme
 - Responsive Sidebar Navigation
 - 3D Printing & Robotics Integration
@@ -66,11 +75,4 @@ If this is a web app you want to run locally:
 
 ```bash
 npm run dev
-
-<h3 align="left">pictures</h3>
-<p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture.PNG" alt="mohamed23220033" /></p>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mohamed23220033&show_icons=true&locale=en&layout=compact" alt="mohamed23220033" /></p>
 
