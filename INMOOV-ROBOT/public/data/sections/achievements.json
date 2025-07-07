@@ -1,0 +1,157 @@
+{
+    "locales": {
+        "en": {
+            "title": "Functions",
+            "title_menu": "Functions",
+            "title_long_prefix": "difine",
+            "title_long": "robot **functions**"
+        },
+
+        "ko": {
+            "title": "الوظيفة",
+            "title_menu": "الوظيفة",
+            "title_long_prefix": "تعريف",
+            "title_long": "**وظاىف الروبوت**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "functions" },
+                "ko": { "title": "وظاىف" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-umbrella",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Object detection**"
+                            
+                        
+                        },
+                        "ko": {
+                            "title": "**Object detection**"
+
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-regular fa-face-smile",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Face detection**"
+                        },
+                        "ko": {
+                            "title": "**Face detection**"
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-microphone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**speech recognition**"
+                            
+                        
+                        },
+                        "ko": {
+                            "title": "**speech recognition**"
+
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "describe functions" },
+                "ko": { "title": "describe functions" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Face detection**",
+                            "info": "",
+                            "text": "<br>acial Emotion Recognition is a growing area in computer science that focuses on detecting and interpreting emotions based on human facial expressions. This capability is becoming an essential part of human-computer interaction, enabling machines to respond to emotional cues effectively. While much of the earlier research in this domain concentrated on identifying faces or analyzing emotions from speech and video data, recent advances have explored the application of convolutional neural networks (CNNs) to directly classify emotional states from facial images.Emotion Recognition involves understanding emotional states using various indicators such as facial expressions, speech intonations, and body language. It leverages technologies like machine learning, deep learning, neural networks, and emotional intelligence systems. As this field evolves, its applications are becoming increasingly critical in areas such as healthcare, security, and human-machine communication."
+                        },
+                        "ko": {
+                            "title": "**Face detection**",
+                            "info": "",
+                            "text": "<br>acial Emotion Recognition is a growing area in computer science that focuses on detecting and interpreting emotions based on human facial expressions. This capability is becoming an essential part of human-computer interaction, enabling machines to respond to emotional cues effectively. While much of the earlier research in this domain concentrated on identifying faces or analyzing emotions from speech and video data, recent advances have explored the application of convolutional neural networks (CNNs) to directly classify emotional states from facial images.Emotion Recognition involves understanding emotional states using various indicators such as facial expressions, speech intonations, and body language. It leverages technologies like machine learning, deep learning, neural networks, and emotional intelligence systems. As this field evolves, its applications are becoming increasingly critical in areas such as healthcare, security, and human-machine communication."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Object detection**",
+                            "info": "",
+                            "text": "<br>Object detection is a critical field in computer vision, aiming to locate and classify multiple objects within an image or video. It has wide-ranging applications, including self-driving vehicles, facial recognition systems, security surveillance, medical imaging, robotics, and agricultural automation. The key challenge in object detection lies in accurately identifying objects regardless of scale, position, illumination, and occlusion. As deep learning has matured, various algorithms have emerged, revolutionizing object detection's speed and accuracy.This paper provides a comparative analysis of five prominent object detection algorithms: R-CNN, Fast R-CNN, Faster R-CNN, SSD (Single Shot Detector), and YOLO v3. Each of these algorithms represents a significant step forward in the evolution of object detection, offering trade-offs between computational efficiency and detection accuracy."
+                        },
+                        "ko": {
+                            "title": "**object detection**",
+                            "info": "",
+                            "text": "<br>Object detection is a critical field in computer vision, aiming to locate and classify multiple objects within an image or video. It has wide-ranging applications, including self-driving vehicles, facial recognition systems, security surveillance, medical imaging, robotics, and agricultural automation. The key challenge in object detection lies in accurately identifying objects regardless of scale, position, illumination, and occlusion. As deep learning has matured, various algorithms have emerged, revolutionizing object detection's speed and accuracy.This paper provides a comparative analysis of five prominent object detection algorithms: R-CNN, Fast R-CNN, Faster R-CNN, SSD (Single Shot Detector), and YOLO v3. Each of these algorithms represents a significant step forward in the evolution of object detection, offering trade-offs between computational efficiency and detection accuracy."
+                        }
+                    }
+                },
+
+                {
+                    "dates": {
+                        "start": "",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**speech recognition**",
+                            "info": "",
+                            "text": "<br>Speech  is the  most important  part of  communication  between human  beings. Though  there  are different  means  to  express  our  thoughts  and  feeling,  speech  is  considered  as  the  main  meduim  for communication. Speech  recognition is the  process of  making  a  machine recognize  the speech of  diffrent people  based  on  certain  words  or  phrases.  Variations  in  the  pronunciation  are  quite  evident  in  each individual’s speech. The  original  form  of  the speech is a signal, and  a  signal  is  processed such that all the information present in the signal is converted in to the text format. The feature extraction is the process of taking a signal and converting it to the required format with certain logic. Even though speech is the easiest way of communication, there exist some problems with speech recognition like the fluency, pronunciation, broken  words,  stuttering  issues  etc. "
+                        },
+                        "ko": {
+                            "title": "**speech recognition**",
+                            "info": "",
+                            "text": "<br>Speech  is the  most important  part of  communication  between human  beings. Though  there  are different  means  to  express  our  thoughts  and  feeling,  speech  is  considered  as  the  main  meduim  for communication. Speech  recognition is the  process of  making  a  machine recognize  the speech of  diffrent people  based  on  certain  words  or  phrases.  Variations  in  the  pronunciation  are  quite  evident  in  each individual’s speech. The  original  form  of  the speech is a signal, and  a  signal  is  processed such that all the information present in the signal is converted in to the text format. The feature extraction is the process of taking a signal and converting it to the required format with certain logic. Even though speech is the easiest way of communication, there exist some problems with speech recognition like the fluency, pronunciation, broken  words,  stuttering  issues  etc. "
+                        }
+                    }
+                }
+                
+                
+            ]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "locales": {
+        "en": {
+            "title": "Build",
+            "title_long_prefix": "Summary of my",
+            "title_long": "**configuration of parts**"
+        },
+
+
+
+        "ko": {
+            "title": "بناء",
+            "title_long_prefix": "ملخص عني",
+            "title_long": "** تفعيل الاجزاء**"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "work",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/head.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**HEAD CODES**",
+                            "info": "",
+                            "text": "# Initialize head servos<br>head = Runtime.create(i01.head,InMoovHead)<br># Configure jaw servo<br>head.jaw.map(0,180,10,60)  # adjust mapping for your servo<br>head.jaw.setMaxSpeed(100)   # set speed (0-100)<br>head.jaw.setRest(10)        # set rest position<br># Configure other head servos similarly<br>head.neck.map(0,180,20,160)<br>head.rothead.map(0,180,20,160)<br>head.eyeX.map(0,180,40,140)<br>head.eyeY.map(0,180,40,140)",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "**HEAD CODES**",
+                            "info": "",
+                            "text": "# Initialize head servos<br>head = Runtime.create(i01.head,InMoovHead)<br># Configure jaw servo<br>head.jaw.map(0,180,10,60)  # adjust mapping for your servo<br>head.jaw.setMaxSpeed(100)   # set speed (0-100)<br>head.jaw.setRest(10)        # set rest position<br># Configure other head servos similarly<br>head.neck.map(0,180,20,160)<br>head.rothead.map(0,180,20,160)<br>head.eyeX.map(0,180,40,140)<br>head.eyeY.map(0,180,40,140)",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/ro1.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "HAND&FORARM CODES",
+                            "info": "",
+                            "text": "# Initialize left hand<br>i01.leftHand = Runtime.create(i01.leftHand,InMoovHand)<br># Thumb configuration<br>i01.leftHand.thumb.map(0,180,10,170)  # adjust for your servo<br>i01.leftHand.thumb.setMaxSpeed(80)<br>i01.leftHand.thumb.setRest(10)<br># Other fingers<br>i01.leftHand.index.map(0,180,10,170)<br>i01.leftHand.majeure.map(0,180,10,170)<br>i01.leftHand.ringFinger.map(0,180,10,170)<br>i01.leftHand.pinky.map(0,180,10,170)<br>i01.leftHand.wrist.map(0,180,10,170)<br># Repeat for right hand if available<br>i01.rightHand = Runtime.create(i01.rightHand,InMoovHand)<br># ... configure right hand servos similarly",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "HAND&FORARM CODES",
+                            "info": "",
+                            "text": "# Initialize left hand<br>i01.leftHand = Runtime.create(i01.leftHand,InMoovHand)<br># Thumb configuration<br>i01.leftHand.thumb.map(0,180,10,170)  # adjust for your servo<br>i01.leftHand.thumb.setMaxSpeed(80)<br>i01.leftHand.thumb.setRest(10)<br># Other fingers<br>i01.leftHand.index.map(0,180,10,170)<br>i01.leftHand.majeure.map(0,180,10,170)<br>i01.leftHand.ringFinger.map(0,180,10,170)<br>i01.leftHand.pinky.map(0,180,10,170)<br>i01.leftHand.wrist.map(0,180,10,170)<br># Repeat for right hand if available<br>i01.rightHand = Runtime.create(i01.rightHand,InMoovHand)<br># ... configure right hand servos similarly",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/r2.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                        
+                    },
+                    "dates": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SHOULDER CODES",
+                            "info": "",
+                            "text": "# Initialize right arm (includes shoulder)<br>i01.rightArm = Runtime.create(i01.rightArm,InMoovArm)<br># Shoulder servos configuration<br>i01.rightArm.shoulder.map(0,180,5,175)  # adjust for your servo range<br>i01.rightArm.shoulder.setMaxSpeed(80)<br>.rightArm.shoulder.setRest(90)<br>i01.rightArm.omoplate.map(0,180,10,170)<br>i01.rightArm.omoplate.setMaxSpeed(60)<br>i01.rightArm.omoplate.setRest(90)<br># Initialize left arm<br>i01.leftArm = Runtime.create(i01.leftArm,InMoovArm)<br># ... configure left shoulder similarly",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "SHOULDER CODES",
+                            "info": "",
+                            "text": "# Initialize right arm (includes shoulder)<br>i01.rightArm = Runtime.create(i01.rightArm,InMoovArm)<br># Shoulder servos configuration<br>i01.rightArm.shoulder.map(0,180,5,175)  # adjust for your servo range<br>i01.rightArm.shoulder.setMaxSpeed(80)<br>.rightArm.shoulder.setRest(90)<br>i01.rightArm.omoplate.map(0,180,10,170)<br>i01.rightArm.omoplate.setMaxSpeed(60)<br>i01.rightArm.omoplate.setRest(90)<br># Initialize left arm<br>i01.leftArm = Runtime.create(i01.leftArm,InMoovArm)<br># ... configure left shoulder similarly",
+                            "tags": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/pictures/r3.jpg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                        
+                    },
+                    "dates": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "STOMACH CODES",
+                            "info": "",
+                            "text": "# Initialize torso service<br>torso = Runtime.create(i01.torso,InMoovTorso)<br># Configure waist servo<br>torso.waist.map(0,180,10,170)  # adjust for your servo<br>torso.waist.setMaxSpeed(60)<br>torso.waist.setRest(90)<br># Basic movements<br>def rotateWaistLeft():<br>torso.waist.moveTo(45)  # rotate left<br>def rotateWaistRight():<br>torso.waist.moveTo(135)  # rotate right<br>def centerWaist():<br>torso.waist.moveTo(90)",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "STOMACH CODES",
+                            "info": "",
+                            "text": "# Initialize torso service<br>torso = Runtime.create(i01.torso,InMoovTorso)<br># Configure waist servo<br>torso.waist.map(0,180,10,170)  # adjust for your servo<br>torso.waist.setMaxSpeed(60)<br>torso.waist.setRest(90)<br># Basic movements<br>def rotateWaistLeft():<br>torso.waist.moveTo(45)  # rotate left<br>def rotateWaistRight():<br>torso.waist.moveTo(135)  # rotate right<br>def centerWaist():<br>torso.waist.moveTo(90)",
+                            "tags": null
+                        }
+                    }
+                }
+                
+            ]
+        }
+    ]
+}

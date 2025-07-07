@@ -1,0 +1,116 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+
+        "ko": {
+            "title": "تواصل",
+            "title_long_prefix": "لا تتردد في",
+            "title_long": "**تواصل** معانا"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "ko": {"title": "**رساله** ارسل لي"}
+            },
+
+            "items": null
+        },
+
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Team Members"},
+                "ko": {"title": " اعضاء الفريق"}
+            },
+
+            "items": [
+                {
+                    "value": "mohamedessam2322003@gmail.com",
+                    "links": [
+                        {"href": "mailto:mohamedessam2322003@gmail.com"}
+                    ],
+                    "icon": {
+                        "img":"images/pictures/MOOO.png",
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mohamed Essam Sayed----->(SOFTWARE)"},
+                        "ko": {
+                            "title": "اMohamed Essam Sayed-----(SOFTWARE)"}
+                    }
+                },
+                {
+                    "value": "Shriefyasser21@gmail.com",
+                    "links": [
+                        {"href": "mailto:Shriefyasser21@gmail.com"}
+                    ],
+                    "icon": {
+                        "img":"images/pictures/SH.jpg",
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Shrief Yasser----->(HARDWARE)"},
+                        "ko": {
+                            "title": "اShrief Yasser----->(HARDWARE)"}
+                    }
+                },
+                {
+                    "value": "Mo335624@gmail.com",
+                    "links": [
+                        {"href": "mailto:Mo335624@gmail.com"}
+                    ],
+                    "icon": {
+                        "img":"images/pictures/m.jpg",
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mohamed Omar----->(HARDWARE)"},
+                        "ko": {
+                            "title": "اMohamed Omar----->(HARDWARE)"}
+                    }
+                },
+                {
+                    "value": "saif.aldeen20018@gmail.com",
+                    "links": [
+                        {"href": "mailto:saif.aldeen20018@gmail.com"}
+                    ],
+                    "icon": {
+                        "img":"images/pictures/saif.jpg",
+                        "fa": "fa-solid fa-phone",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Saif aldeen ahmed----->(HARDWARE)"},
+                        "ko": {
+                            "title": "Saif aldeen ahmed----->(HARDWARE)"}
+                    }
+                }
+
+                
+
+
+            ]
+        }
+    ]
+}

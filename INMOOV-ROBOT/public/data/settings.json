@@ -1,0 +1,70 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": " <b>INMOOOV ROBOT</b>",
+        "subtitle": "ACU TEAM"
+    },
+
+    "profile": {
+        "name": "By Mohamed Essam",
+        "stylizedName": "<strong>INMOOV **ROBOT**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/avatar.jpg",
+
+        "locales": {
+            "en": {"role": "By ACU TEAM"},
+            "ko": {"role": "By ACU TEAM"}
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "."},
+            "ko": {"message": "."}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
+
+
+
+        {
+            "name": "Arabic",
+            "id": "ko",
+            "flagUrl": "images/flags/eg.png"
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "tzObcsmOwHvPy6Rhp",
+        "serviceId": "service_4h8g7vb",
+        "templateId": "template_seyjkzn"
+    }
+}
