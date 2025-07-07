@@ -1,4 +1,6 @@
 # 🤖 INMOOV ROBOT WEBSITE
+<h3 align="left">pictures</h3>
+<p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture.PNG" alt="mohamed23220033" /></p>
 
 Welcome to the official website for the **InMoov Robot** project by **Mohamed Essam**. This platform is dedicated to showcasing the development, components, and functionality of the life-size 3D-printed humanoid robot — **InMoov**.
 
