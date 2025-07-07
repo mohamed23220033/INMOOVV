@@ -32,7 +32,7 @@ This website provides a structured and interactive interface to learn about the 
 - **Gallery**: Collection of images and project progress.
 - **Functions**: Breakdown of robot features and behavior.
 - **Components**: Hardware parts used in the robot.
-- <p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture20.PNG" alt="mohamed23220033" /></p>
+   <p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture20.PNG" alt="mohamed23220033" /></p>
 
 - **Contact**: Get in touch with the creator.
   <p><img align="left" src="https://github.com/mohamed23220033/INMOOVV/blob/main/Capture10.PNG" alt="mohamed23220033" /></p>
